@@ -72,9 +72,9 @@ function takeCommand(message){
         speak("opening whatsapp..")
         window.open("whatsapp://")
     }
-    else if(message.includes("open phonepay")){
-        speak("opening phonepay..")
-        window.open("phonepay://")
+    else if(message.includes("open phonepe")){
+        speak("opening phonepe..")
+        window.open("phonepe://")
     }
     else if(message.includes("open paytm")){
         speak("opening paytm..")
