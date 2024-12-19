@@ -54,3 +54,21 @@ cursor: pointer;
     box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
     letter-spacing: 2px;
 }
+.foot{
+    font-family: "Protest Guerrilla", sans-serif;
+    
+    color:red;
+}
+/* Responsive */
+@media(max-width:665px){
+    .foot{
+        margin-top:10rem;
+    }
+    #btn{
+        width: 67%;
+        margin-top: 9rem;
+    }
+    body{
+        margin: 3px;
+    }
+}
